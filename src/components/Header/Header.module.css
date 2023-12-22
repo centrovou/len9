@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.imgHeader {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.imgCart {
+  cursor: pointer;
+}
+
+.buttonModal {
+  border: none;
+  background-color: #fff;
+}
+
+.fav {
+  margin-right: 22px;
+  cursor: pointer;
+}

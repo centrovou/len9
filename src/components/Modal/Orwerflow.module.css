@@ -1,0 +1,66 @@
+.opacityBlock {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0000003d;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.owerflow {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  overflow: auto;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.cardItem {
+  display: flex;
+  border: 1px solid #d6d4d4;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.titleitem {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+b {
+  font-size: 14px;
+}
+
+.img {
+  margin-right: 20px;
+}
+
+.blockInfo {
+  margin-right: 20px;
+}
+
+.removeBtn {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.removeBtn:hover {
+  opacity: 1;
+}
+
+.names {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
