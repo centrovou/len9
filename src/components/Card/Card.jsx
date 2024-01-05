@@ -23,7 +23,7 @@ const Card = ({ id, title, price, imageUrl, onPlus }) => {
             className={styles.plus}
             width={30}
             height={30}
-            src={offClick ? 'sneakers/btn-cheked.svg' : 'sneakers/btn-plus.svg'}
+            src={offClick ? 'images/sneakers/btn-cheked.svg' : 'images/sneakers/btn-plus.svg'}
             alt=""
           />
         </button>
