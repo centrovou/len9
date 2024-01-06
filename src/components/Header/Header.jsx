@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className={styles.headear}>
       <div className={styles.headerLeft}>
-        <Link to="/home">
+        <Link to="/">
           <img
             className={styles.imgHeader}
             width={40}
