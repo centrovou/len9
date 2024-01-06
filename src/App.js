@@ -55,7 +55,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} items={items} />} />
           <Route path="/favorites" element={<Favorites />} />
-          <Route path="" element={<div>error 404 back</div>} />
+          <Route path="*" element={<div>error 404 back</div>} />
         </Routes>
       </div>
     </TaskContext.Provider>
