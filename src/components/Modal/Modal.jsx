@@ -15,7 +15,7 @@ const Modal = ({ onCloseCart, onRemove }) => {
             <img
               onClick={onCloseCart}
               className={styles.removeBtn}
-              src="images/sneakers/btn-exit.svg"
+              src="./len9/images/sneakers/btn-exit.svg"
               alt=""
             />
           </h3>
@@ -36,7 +36,7 @@ const Modal = ({ onCloseCart, onRemove }) => {
                 <img
                   onClick={() => onRemove(item.id)}
                   className={styles.removeBtn}
-                  src="images/sneakers/btn-exit.svg"
+                  src="./len9/images/sneakers/btn-exit.svg"
                   alt=""
                 />
               </div>
