@@ -1,4 +1,6 @@
 import { React, useReducer, useState } from 'react';
+import Home from './pages/Home';
+import Favorites from './pages/Favorites';
 
 import Header from './components/Header/Header';
 import './index.css';
@@ -6,9 +8,6 @@ import { useEffect } from 'react';
 import TaskContext from './components/UseContext/TaskContext';
 import { Route, Routes } from 'react-router-dom';
 import { initialState, reducer } from './components/reducer/UseReducer';
-
-import Favorites from './pages/Favorites';
-import Home from './pages/Home';
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
